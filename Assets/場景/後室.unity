@@ -22068,7 +22068,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_RootOrder
@@ -80677,8 +80677,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67ad465cd1404f14bacafc897873628c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  player: {fileID: 0}
+  agent: {fileID: 1750077134}
+  player: {fileID: 1980306424}
+  moveSpeed: 2.5
+  stopDistance: 1
+  ani: {fileID: 0}
 --- !u!195 &1750077134
 NavMeshAgent:
   m_ObjectHideFlags: 0

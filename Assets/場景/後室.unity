@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -80681,7 +80681,7 @@ MonoBehaviour:
   player: {fileID: 1980306424}
   moveSpeed: 2.5
   stopDistance: 1
-  ani: {fileID: 0}
+  ani: {fileID: 1936554416}
 --- !u!195 &1750077134
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -89197,6 +89197,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1750077133}
   m_SourcePrefab: {fileID: 100100000, guid: ce65fa103f0e84b4289374b2a4bf93f8, type: 3}
+--- !u!95 &1936554416 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: ce65fa103f0e84b4289374b2a4bf93f8, type: 3}
+  m_PrefabInstance: {fileID: 1936554415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1938082643
 PrefabInstance:
   m_ObjectHideFlags: 0

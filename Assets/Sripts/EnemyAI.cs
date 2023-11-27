@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     public Animator ani;
 
     private string parMove = "移動數值";
+    private string parAttack = "觸發攻擊";
 
     private void Awake()
     {
@@ -34,5 +35,6 @@ public class EnemyAI : MonoBehaviour
         // 動畫控制器.設定浮點數(浮點數參數 , 浮點數值)
         ani.SetFloat(parMove, move);
 
+        print($"<color=#f69>移動速度:{agent.velocity.magnitude}</color>");
     }
 }
